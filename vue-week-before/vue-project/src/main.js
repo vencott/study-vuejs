@@ -16,7 +16,7 @@ const i18nStrings = {
 const app = createApp(App);
 app.use(router);
 app.mixin(mixins);
-app.directives("focus", {
+app.directive("focus", {
   mounted(el) {
     el.focus();
   },
